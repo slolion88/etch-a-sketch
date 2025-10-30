@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(238, 241, 255);
+    color: rgb(170, 196, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    margin: auto;
+}
+
+.header,
+.container,
+.footer {
+    display: flex;
+    border-radius: 10px;
+    margin: auto;
+    width: 960px;
+}
+
+.header,
+.footer {
+    background-color: rgb(177, 178, 255);
+    color: rgb(238, 241, 255);
+    font-size: 24px;
+    padding: 9px;
+}
+
+.header {
+    justify-content: space-between;
+    align-items: center;
+    gap: 9px;
+}
+
+.buttons {
+    gap: 9px;
+}
+
+button {
+    background-color: rgb(238, 241, 255);
+    color: rgb(177, 178, 255);
+    font-size: 18px;
+
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    padding: 9px;
+}
+
+.container {
+    background-color: rgb(210, 218, 255);
+
+    height: 960px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+    flex: 1;
+}
+
+.box {
+    background-color: rgb(255, 255, 255);
+
+    border-radius: 10px;
+}
